@@ -11,8 +11,6 @@ def contact_us(request):
     if request.method == "POST":
         if form.is_valid():
             email = form.cleaned_data['email']
-            connect = h.get_connection()
-            connect.send_mail('Hello', 'Hello', email, ['raghuvarapadma@gmail.com'])
-            connect.close()
+            send_mail('Hello', 'Hello', email, ['raghuvarapadma@gmail.com'])
             form.save()
     return render(request, 'contact/contact_us.html', {'form': form})
