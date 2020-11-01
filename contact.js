@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './contact.css';
 import {Grid} from '@material-ui/core';
 import {Box} from '@material-ui/core';
 import {TextField} from "@material-ui/core";
