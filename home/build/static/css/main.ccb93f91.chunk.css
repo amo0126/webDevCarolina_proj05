@@ -1,2 +1,30 @@
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace}.box,.whole{display:flex;justify-content:center;align-items:center}.box{border-width:1;width:100;height:100;background-color:#000;border-radius:10;color:#fff;margin-top:5%}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+.box,
+.whole {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.box {
+    border-width: 1;
+    width: 100;
+    height: 100;
+    background-color: #000;
+    border-radius: 10;
+    color: #fff;
+    margin-top: 5%
+}
+
+
 /*# sourceMappingURL=main.ccb93f91.chunk.css.map */
