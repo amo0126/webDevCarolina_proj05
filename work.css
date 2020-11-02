@@ -1,0 +1,26 @@
+.left-section {
+  background-color:grey;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space {
+  padding: 10px;
+  background-color: white;
+}
+
+.title-box{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './about.css';
 
 const title = (
       <div className="topBanner">What We Do</div>
@@ -28,6 +28,7 @@ class AboutSection extends React.Component {
   }  
 }
 
+export default AboutSection
 
 
 
